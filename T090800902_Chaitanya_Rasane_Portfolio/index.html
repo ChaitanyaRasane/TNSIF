@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chaitanya Rasane - Software Engineer | AI/ML Enthusiast">
+    <meta name="keywords" content="Software Engineer, AI, ML, Full-Stack Developer">
+    <meta name="author" content="Chaitanya Rasane">
+    <meta property="og:image" content="profile.jpg">
+    <title>Chaitanya Rasane - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+
+    <div id="chatContainer">
+        <img id="aiAvatar" src="ai-avatar.png" alt="AI Assistant">
+        <button id="voiceAssistant" class="btn">🎤 Talk to AI</button>
+        <div id="chatBox">
+            <p id="assistantResponse">Ask me anything about Chaitanya Rasane!</p>
+        </div>
+    </div>
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="darkModeToggle" class="btn">🌙 Toggle Dark Mode</button>
+    </nav>
+  
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight" id="typewriter">Chaitanya Rasane </span></h1>
+            <p> Software Engineer | AI/ML Enthusiast | Full-Stack Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+        </div>
+    </section>
+  
+    <!-- <header>
+      <h1>Hii,                   </h1>
+      <h1>its Chaitanya babe....!</h1>
+  </header> -->
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p> Software Engineer specializing in AI/ML, Full-Stack Development, and scalable cloud-based solutions.
+          Proficient in Python, Java, and modern frameworks for web and AI applications. Experienced in building
+          real-time, data-driven systems and optimizing automation workflows. Adept at cross-functional collab
+         oration, problem-solving, and developing cutting-edge AI models that enhance business intelligence and
+          efficiency</p>
+          <div class="timeline">
+            <div class="timeline-item">
+                <h3>2025 - Final Year</h3>
+                <p>Working on Negotiation Ai Project for vehicle selling.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>2024 - Internship at Projectvetrse.in</h3>
+                <p>Worked on backend engineering.</p>
+            </div>
+        </div>
+        
+        <a href="Chaitanya_Rasane_Mob_9403723058 (4).pdf" download class="resume-btn">Download Resume</a>
+
+    </section>
+    <section id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <div class="project" onclick="openModal('project1')">
+            <img src="18lo.gif" alt="Project 1" loading="lazy">
+            
+              <h3>AI Based Vehicle Selling Web Application</h3>
+          </div>
+          <div class="project" onclick="openModal('project2')">
+            <img src="ZAbi.gif" alt="Project 2" loading="lazy">
+            
+              <h3>WhatsApp Web Clone</h3>
+          </div>
+      </div>
+      
+      <!-- Modal -->
+      <div id="project1" class="modal">
+          <div class="modal-content">
+              <span class="close" onclick="closeModal('project1')">&times;</span>
+              <h2>AI-Based Vehicle Selling Web Application</h2>
+              <p>Uses AI to match buyers with the best vehicles based on their preferences.</p>
+          </div>
+      </div>
+      
+      <div id="project2" class="modal">
+          <div class="modal-content">
+              <span class="close" onclick="closeModal('project2')">&times;</span>
+              <h2>WhatsApp Web Clone</h2>
+              <p>Replicates core WhatsApp messaging features for seamless communication.</p>
+          </div>
+      </div>
+      
+      
+    </section>
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact</h2>
+        <form id="contactForm" action="https://formspree.io/f/mzzepobw" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <p id="statusMessage"></p>
+      
+      
+        <p>Email: rasanechaitanya@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/chaitanya-rasane-194130234"_blank">Chaitanya_Rasane</a></p>
+    </section>
+    <footer>
+        <p>© 2025 Chaitanya_Rasane. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+ 
