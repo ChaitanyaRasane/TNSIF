@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"OnlineShoppingAPP","l":"Admin"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"OnlineShoppingAPP","l":"Product"},{"p":"OnlineShoppingAPP","l":"ShoppingApp"}];updateSearchResults();
